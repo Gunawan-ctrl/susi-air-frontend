@@ -10,3 +10,19 @@
     </UApp>
   </div>
 </template>
+
+<style scoped>
+.main-content {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .main-content {
+    max-width: 90rem;
+    padding: 0 1.5rem;
+  }
+}
+</style>
