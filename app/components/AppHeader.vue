@@ -55,7 +55,7 @@
         <UAvatar
           :alt="flightStore.pilot?.name"
           size="md"
-          class="ring-2 ring-slate-100 dark:ring-slate-800 font-bold bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200"
+          class="ring-2 ring-slate-100 dark:ring-slate-800 font-bold bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 uppercase"
           loading="lazy"
         />
       </div>

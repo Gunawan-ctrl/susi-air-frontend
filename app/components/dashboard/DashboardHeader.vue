@@ -27,7 +27,7 @@
 
         <div class="space-y-1">
           <h2
-            class="headline-lg font-bold text-brand-navy dark:text-white tracking-tight"
+            class="headline-lg font-bold text-brand-navy dark:text-white tracking-tight capitalize"
           >
             {{ greetingText }}, {{ flightStore.pilot?.name || "Pilot" }}!
           </h2>
