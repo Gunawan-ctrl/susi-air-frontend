@@ -22,17 +22,3 @@ useSeoMeta({
     "Portal pemantauan jam terbang, limitasi operasional, dan pembaruan dokumen resmi kru Susi Air.",
 });
 </script>
-
-<style>
-.main-content {
-  max-width: 90rem;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-@media (min-width: 640px) {
-  .main-content {
-    padding: 0 1.5rem;
-  }
-}
-</style>
