@@ -92,6 +92,40 @@ Aplikasi ini dirancang dengan pendekatan **mobile-first** dan mengikuti panduan 
 
 ---
 
+## 📚 Libraries yang Digunakan
+
+| Library             | Alasan Penggunaan                                                                                                                                    |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nuxt UI**         | Menyediakan komponen UI yang modern, konsisten, dan responsif sehingga mempercepat proses pengembangan tanpa harus membangun komponen dari awal.     |
+| **Pinia**           | Digunakan sebagai state management utama. Seluruh business logic dan state aplikasi dipusatkan di store agar lebih terstruktur dan mudah dipelihara. |
+| **ApexCharts**      | Digunakan untuk menampilkan visualisasi trend flight hours dan rolling sum secara interaktif.                                                        |
+| **Day.js**          | Library ringan untuk manipulasi dan formatting tanggal pada schedule, documents, dan flight information.                                             |
+| **Lucide Vue Next** | Menyediakan kumpulan icon yang ringan, modern, dan konsisten dengan desain aplikasi.                                                                 |
+
+---
+
+## 📝 Brief Notes
+
+### Yang Akan Saya Tingkatkan Jika Memiliki Waktu Lebih
+
+Apabila memiliki waktu pengembangan lebih banyak, beberapa peningkatan yang ingin saya lakukan adalah:
+
+- Menambahkan autentikasi yang terintegrasi dengan backend menggunakan JWT atau OAuth.
+- Mengintegrasikan seluruh data menggunakan REST API atau GraphQL sehingga tidak lagi menggunakan mock JSON.
+- Membuat komponen yang lebih reusable dan mendokumentasikannya
+- Menambahkan unit test dan component test menggunakan Vitest untuk meningkatkan kualitas kode.
+- Mengoptimalkan performa aplikasi melalui lazy loading, code splitting, dan image optimization.
+- Menambahkan loading skeleton, empty state, dan error state pada setiap halaman.
+
+### Keputusan Arsitektur
+
+Dalam implementasi aplikasi ini saya memilih:
+
+- Menggunakan **Pinia Composition API** sebagai pusat state management agar seluruh business logic berada di store dan komponen tetap fokus pada tampilan (UI).
+- Menggunakan **Nuxt UI** untuk menjaga konsistensi desain sekaligus mempercepat proses pengembangan.
+- Menerapkan pendekatan **mobile-first** karena aplikasi ditujukan untuk digunakan oleh pilot yang lebih sering mengakses perangkat mobile.
+- Memisahkan store berdasarkan domain (Authentication, Dashboard, Flight Hours, Documents, Schedule) agar kode lebih modular dan mudah dikembangkan.
+
 ## ⚙️ Setup & Instalasi
 
 ### Prasyarat
